@@ -1,0 +1,415 @@
+
+/*main*/
+.sub_title {
+  font-size: 1.8em;
+  color: #00a6dc;
+  font-weight: bold;
+}
+.title {
+  padding: 0.6em 0;
+  font-size: 5em;
+}
+.explain {
+  line-height: 1.6em;
+  font-size: 1.4em;
+}
+
+/*main visual*/
+.main_visual {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/mainvisual_frame.png) no-repeat center;
+  background-size: 1920px;
+}
+
+.main_visual:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 10%;
+  bottom: -20%;
+  background: url(../images/main_after.png) no-repeat 0 0;
+  background-size: 300px;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+}
+
+.main_visual .mo_video{display: none;}
+
+
+.main_visual video {
+  position: absolute;
+  z-index: -100;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*mainvisual content*/
+.mv_content {
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+  color: #fff;
+}
+.mv_content h2 {
+  font-size: 5.4em;
+  color: #fff;
+}
+.mv_content p {
+  font-size: 20px;
+}
+
+/*마우스 scroll*/
+.scroll-downs {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+}
+
+.scroll-downs p {
+  display: none;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.mousey {
+  width: 3px;
+  margin: auto;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #000;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
+
+/*portfolio*/
+.portfolio {
+  position: relative;
+  padding: 100px 60px;
+}
+
+/*slide*/
+.mo{display: none;}
+
+.swiper {
+  padding: 4em;
+  max-width: 120em;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px;
+  color: #000;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+/*button*/
+.portfolio .plus {
+  position: absolute;
+  right: 15%;
+  top: 25%;
+  padding: 0.5em;
+  font-size: 1.6em;
+  color: #00a6dc;
+  border-radius: 1em;
+}
+
+.portfolio .plus:hover {
+  background-color: #00a6dc;
+  color: #fff;
+  transition: all 0.3s;
+  border-radius: 1em;
+}
+
+/*specialization*/
+.specialization .wrap {
+  width: 100%;
+  background: url(../images/bg_specialization.png) no-repeat 0 0;
+}
+
+.specialization .inner {
+  padding: 13em 0;
+}
+
+.specialization .inner .sub_title,
+.specialization .inner .title,
+.specialization .inner .explain {
+  color: #fff;
+}
+
+.specialization ul {
+  display: flex;
+  justify-content: center;
+  gap: 8em;
+  padding: 9em 0;
+}
+
+.specialization ul li figcaption {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bolddjdd;
+}
+
+.specialization .plus a {
+  display: block;
+  margin-top: 0.4em;
+  padding: 0.4em;
+  font-size: 1.6em;
+  text-align: center;
+  color: #fff;
+  border-radius: 1em;
+}
+
+.specialization .plus a:hover {
+  background-color: #fff;
+  color: #00a6dc;
+  border-radius: 1em;
+  transition: all 0.5s;
+}
+
+/*solution*/
+.solution .wrap {
+  background-color: #303030;
+  width: 100%;
+  height: 100vh;
+}
+
+.solution .inner {
+  padding-top: 8em;
+}
+
+.solution .inner .sub_title{
+  margin-top: 3em;
+}
+
+.solution .inner .title,
+.solution .inner .explain {
+  color: #fff;
+}
+
+.solution ul {
+  grid-template-areas:
+    "a b c"
+    "d e f";
+  justify-content: end;
+  gap: 2em;
+}
+
+.solution ul li img {
+  width: 250px;
+  height: 280px;
+}
+
+.solution ul li:first-child {
+  grid-area: a;
+}
+
+.solution ul li:nth-child(2) {
+  grid-area: b;
+}
+
+.solution ul li:nth-child(3) {
+  grid-area: c;
+}
+
+.solution ul li:nth-child(4) {
+  grid-area: d;
+}
+
+.solution ul li:nth-child(5) {
+  grid-area: e;
+}
+
+.solution ul li:nth-child(6) {
+  grid-area: f;
+}
+
+/*free*/
+.free {
+  height: 100vh;
+}
+
+.free .wrap img {
+  width: 100vw;
+
+}
+
+
+.free form {
+  padding: 2em 0;
+}
+
+.free form ul li {
+  display: flex;
+  width: 70em;
+  padding: 2em 0;
+}
+
+.free form ul li label {
+  width: 140px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.free form ul li span {
+  color: #00a6dc;
+}
+
+.free form ul li input{
+  width: 50em;
+  padding: 0 2em;
+  font-size: 1.6em;
+}
+
+.free form ul li select{width: 20em;}
+
+
+.free form ul li input[type=radio]{
+  display: inline-block;
+  width: 1.2em;
+}
+
+
+/*답변 요청*/
+
+.free form ul li.answer>input{width: 25em;}
+
+.request {
+  display: block;
+}
+
+.request .radio {
+  font-size: 1.6em;
+  font-weight: normal;
+}
+
+/*개인정보 동의*/
+.agree {
+  justify-content: center;
+}
+
+.agree .agree_check {
+  width: 15em;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.agree .check {
+  width: 1em;
+  margin-right: 1em;
+}
+
+.agree button {
+  color: #00a6dc;
+}
+
+/*상담 후 무료 진단서 받기*/
+.submit_free {
+  display: inline-block;
+  width: 20em;
+  padding: 0.5em;
+  margin: 1em;
+  background: #00a6dc;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 0.5em;
+}
+
+.submit_free:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+/*sample_image*/
+.free .sample {
+  display: inline;
+}
+
+.free .sample img {
+  width: 50em;
+  margin-top: 12em;
+}
+
+/*location*/
+.location {  
+  background-color: #f8f8f8;
+  padding-top: 80px;
+  margin-top: 200px;
+  height: 80em;
+}
+
+.location .inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location ul li h3{
+  font-size: 2em;
+  padding: 1em 0;
+}
+
+.location ul li p{
+  font-size: 1.8em;
+}
+
+.location .map{
+  width: 50em;
+  height: 300px;  
+  margin-top: 50px;
+}
+
+

@@ -1,0 +1,380 @@
+@media screen and (max-width: 500px) {
+
+  .inner{width: 30em;}
+
+  /*main*/
+main img{
+  width: 300px;
+}
+
+  main .pc{display: none;}
+
+  main .mo{display: block;}
+
+  .consulting_btn2 img{width: 100%;}
+
+  .title {
+    padding: 10px 0 0 0;
+  }
+  
+  .content_title {
+    font-size: 2em;
+  }
+  
+  .title_h4{
+    padding: 1em 0;
+    font-size: 1.6em;
+    color: #00a6dc;
+  }
+
+
+  /*moblie_optimization*/
+
+.moblie_optimization .title.mo{
+  padding-top: 60px;
+}
+
+.moblie_optimization ul {
+  grid-template-areas: "a b" "c d" "e f";
+  background: url(../images/gray_logo.png) no-repeat 90% 90%;
+  background-size: 30%;
+  margin: 2em 0 ;
+}
+
+.moblie_optimization ul li {
+  width: 28em;
+}
+
+.moblie_optimization ul li img {
+  width: 100%;
+}
+
+/*web_log*/
+
+.web_log .procedure {
+  width: 30em;
+}
+
+.web_log .procedure img {
+  width: 30em;
+}
+
+.log_content {
+  padding: 1em 0;
+  font-size: 1em;
+}
+
+/*log_4a*/
+
+.log_4a {
+  margin: 4em 0;
+  padding: 6em 0 0;
+}
+
+.log_4a ul {
+  grid-template-areas: "a b" "c d";
+  gap: 1em;
+}
+
+.log_4a ul.grid li{
+  width: 13em;
+}
+
+.log_4a ul li img {
+  width: 100%;
+}
+
+/*hitmap*/
+
+.hitmap {
+  background: url(../../images/web_log_hitmap.png) no-repeat center 15%;
+  background-size: 80%;
+}
+
+.hitmap .m_b{
+  width: 30em;
+  margin-bottom: 20em;
+}
+
+.hitmap ul .visualization .grid {
+  grid-template-areas: "a" "b" "c";
+justify-content: center;
+}
+
+.hitmap ul .visualization .grid li{
+  width: 30em;
+  padding-bottom: 2em;
+}
+
+.hitmap ul .visualization .grid li img{
+  width: 30em;
+}
+
+.hitmap ul li.visitant,
+.hitmap ul li.funnel {
+  margin: 0;
+  margin-bottom:4em;
+  width: 30em;
+}
+
+.hitmap ul .visitant ul li,
+.hitmap ul .funnel ul li {
+  font-size: 12px;
+}
+
+.hitmap ul .visitant ul li p,
+.hitmap ul .funnel ul li p {
+  font-size: 12px;
+}
+
+.hitmap ul li:nth-child(2) ul li {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.hitmap ul .visitant ul li h5,
+.hitmap ul .funnel ul li h5 {
+  margin-bottom: 1em;
+  font-size: 14px;
+}
+
+
+/*fraudulent_click*/
+
+.fraudulent_click{
+  padding: 5em 0 3em;
+}
+
+
+.fraudulent_click .log_content {
+  width: 30em;
+}
+
+.fraudulent_click ul {
+  grid-template-areas: "a b" "c d";
+  padding: 2em 0;
+  gap: 1em;
+}
+
+.fraudulent_click ul li:last-child img {
+  width: 75px;
+  margin: auto;
+}
+
+.fraudulent_click ul li {
+  width: 30em;
+}
+
+.fraudulent_click ul li img {
+  width: 100%;
+}
+
+.fraudulent_click ul li figcaption {
+  width: 100px;
+  font-size: 1em;
+}
+
+/*report*/
+.report{
+  margin-top: 5em;
+  background: url(../../images/web_log_report.png) no-repeat 50% 5%;
+  background-size: 80%;
+}
+
+.report_ul{
+  display: block;
+  background: none;
+}
+
+.report .title_h4{
+  font-size: 1.6em;
+}
+
+.report ul{margin-top: 20em;}
+
+.report .report_ul2{
+  display: block;
+  margin: 0;
+}
+
+.report .report_ul2 li{
+  width: 28em;
+}
+
+.report .report_ul2 li img{
+  width: 100%;
+}
+
+.report ul li ul li, .report ul li p{font-size: 1em;}
+
+.report ul li:nth-child(2) ul li, .report ul>li:nth-child(3) ul li{
+  list-style: none;
+}
+
+.report ul li ul{
+  width: 100%;
+  grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i";
+  justify-content: start;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.report ul li ul li:first-child{grid-area: a;}
+.report ul li ul li:nth-child(2){grid-area: b;}
+.report ul li ul li:nth-child(3){grid-area: c;}
+.report ul li ul li:nth-child(4){grid-area: d;}
+.report ul li ul li:nth-child(5){grid-area: e;}
+.report ul li ul li:nth-child(6){grid-area: f;}
+.report ul li ul li:nth-child(7){grid-area: g;}
+.report ul li ul li:nth-child(8){grid-area: h;}
+.report ul li ul li:nth-child(9){grid-area: i;}
+
+.report ul li ul li{
+  width: 100%;
+}
+
+.report ul li ul li img{
+  width: 100%;
+}
+
+.report ul li ul li span, .report ul li p span{
+  text-decoration: underline;
+}
+
+
+
+
+/*automatic*/
+
+.sl_title{
+  margin: auto;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.automatic .automatic_content{
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.automatic li img{
+  width: 100%;
+}
+/*competitor*/
+
+.competitor p{
+  padding: 3em 0;
+  font-size: 1.2em;
+}
+
+.competitor ul li{
+  width: 100%;
+  padding: 3em 1.5em;
+}
+
+.competitor ul li img{
+  width: 100%;
+}
+
+/*database*/
+
+.database ul li{
+  width: 100%;
+}
+
+.database ul li img{ 
+  padding-top: 1.5em;
+  width: 100%;
+}
+
+
+/*schedule*/
+
+.schedule{
+  background: url(../../images/schedule_call.png) no-repeat  40% 14%;
+  background-size: 60%;
+}
+
+.schedule .content_title{
+  padding-top: 2em;
+}
+
+.schedule .content_title:first-of-type{
+  margin-top: 3em;
+}
+
+.schedule .log_content:first-of-type{
+  width: 100%;
+}
+
+.schedule .grid{
+  grid-template-areas: "a b" "c d";
+  padding: 1.5em 0;
+}
+
+.schedule .grid li{
+  width: 13em;  
+}
+
+.schedule .grid li img{
+  width: 100%;
+}
+
+.schedule .main_function .content_title{
+  margin-top: 0;
+}
+
+.schedule .main_function{
+  margin-bottom: 0;  
+  background: url(../../images/schecule_content_bg.png) no-repeat 90% 4%;
+  background-size: 40%;
+}
+
+.schedule .main_function .log_content{
+  margin-top: 4em;
+}
+
+.schedule .main_function ul{
+  margin: 2em 0;
+}
+
+.schedule .main_function ul li{
+  font-size: 1em;
+}
+
+
+/*sms_consulting*/
+
+.sms_consulting .sms_content{
+  padding: 2em 0 0;
+  font-size: 1em;
+}
+
+.sms_consulting .grid{
+
+  grid-template-areas: "a b c d";
+  gap: 3em;
+}
+
+
+.sms_consulting .grid{
+  width: 100%;  
+  margin: 2em 0 8em;   
+  padding: 0;
+  grid-template-areas: "a b" "c d";
+  justify-content: center;
+  gap: 2em;
+}
+
+.sms_consulting .grid li{
+  width: 13em;
+}
+
+.sms_consulting .grid li img{
+  width: 100%;
+}
+
+}

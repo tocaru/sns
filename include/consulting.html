@@ -1,0 +1,107 @@
+<!--우측 팝업창 상담하기-->
+<div class="consulting_btn2">
+  <button class="gnb_all bg_heeil_gr"><img src="images/slide-button3.png" alt="문의하기버튼2" /></button>
+</div>
+<div id="simple_consulting">
+  <div class="consulting_db">
+    <h2>광고전문가 상담하기</h2>
+    <button type="button" class="consult_close">
+      <span class="xi-close"></span>
+       
+    </button>
+    <div id="contactform" class="xans-element- xans-mall xans-mall-urgencycall">
+      <div class="ec-base-table typeWrite">
+        <table border="1">
+          <tbody>
+            <p><input id="business_name" name="title" fw-filter="" fw-label="title" fw-msg="" class="inputTypeText"
+                placeholder="업체명을 입력해주세요." value="" type="text" /></p>
+            <p><input id="client_name" name="writer" fw-filter="" fw-label="writer" fw-msg="" class="inputTypeText"
+                placeholder="광고담당자명을 입력해주세요." value="" type="text" /></p>
+            <p placeholder="문의매체를 선택해주세요">
+              <select id="service" name="question" fw-filter="" fw-label="question" fw-msg="">
+                <option value="무료 광고대행">무료 광고대행</option>
+                <option value="무료 광고대행 - SEARCH">└ SEARCH</option>
+                <option value="무료 광고대행 - BANNER">└ BANNER</option>
+                <option value="">-----------------------------</option>
+                <option value="일반 광고대행">일반 광고대행</option>
+                <option value="일반 광고대행 - DB">└ DB</option>
+                <option value="일반 광고대행 - SNS">└ SNS</option>
+                <option value="일반 광고대행 - MEDIA">└ MEDIA</option>
+                <option value="일반 광고대행 - APP">└ APP</option>
+                <option value="일반 광고대행 - OFFLINE">└ OFFLINE</option>
+                <option value="">------------------------------</option>
+                <option value="필요 광고대행">필요 광고대행</option>
+                <option value="필요 광고대행 - 광고물제작">└ 광고물제작</option>
+                <option value="필요 광고대행 - 솔루션 지원">└ 솔루션 지원</option>
+              </select>
+            </p>
+            <p>
+              <input id="phone_number" name="phone_number" fw-filter="" fw-label="phone_number" fw-msg="" class="inputTypeText"
+                placeholder="연락처" value="" type="text" />
+            </p>
+            <p>
+              <input id="budget" name="budget" fw-filter="" fw-label="budget" fw-msg="" class="inputTypeText"
+                placeholder="월 예상 광고비(원)" value="" type="number" />
+            </p>
+          </tbody>
+          <tbody class="1">
+            <tr>
+              <td>
+                개인정보 수집 및 이용 동의<a href="user.html" target="_blank" class="privacy">[자세히보기]</a>
+                <p class="gBlank5">
+                  <input id="privacy_agreement_radio0" name="is_agreed_privacy_agreement" fw-filter=""
+                    fw-label="privacy_agreement_radio" fw-msg="" value="T" type="radio" /><label
+                    for="privacy_agreement_radio0">동의함</label>
+                  <input id="privacy_agreement_radio1" name="is_agreed_privacy_agreement" fw-filter=""
+                    fw-label="privacy_agreement_radio" fw-msg="" value="F" type="radio" checked="checked" /><label
+                    for="privacy_agreement_radio1">동의안함</label>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <a href="tel:02-435-0427;"><img src="images/side_call5.jpg" alt="sideBar" id="sideBarcall" /></a>
+      <div class="ec-base-button gBottom">
+        <a href="#none" class="btnSubmitFix sizeM" id="sidbtn">신청하기</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--//우측 팝업창 상담하기-->
+
+<script>
+  $(document).ready(function () {
+    // 페이지가 로드될 때 광고 문의 팝업을 숨기거나 보여주는 함수 호출
+    check_popup();
+
+    // "상담하기" 버튼 클릭 시 팝업 열기
+    $('.gnb_all').click(function () {
+      $('#simple_consulting').animate({ width: 'toggle', direction: "z" }, 400);
+      con_setCookie("simple_consulting", '', -1);
+    });
+
+    // 팝업 닫기 버튼 클릭 시 팝업 닫기
+    $('.consult_close').click(function () {
+      $('#simple_consulting').animate({ width: 'toggle', direction: "z" }, 400);
+      con_setCookie("simple_consulting", "C", "604800");
+    });
+  });
+
+  // 쿠키를 확인하여 팝업을 숨기거나 보여주는 함수
+  function check_popup() {
+    var simple_consulting_cookie = document.cookie;
+    if (simple_consulting_cookie.includes("simple_consulting")) {
+      $('#simple_consulting').hide();
+    } else {
+      $('#simple_consulting').show();
+    }
+  }
+
+  // 쿠키 설정 함수
+  function con_setCookie(name, value, expiredays) {
+    var todayDate = new Date();
+    todayDate.setDate(todayDate.getDate() + expiredays);
+    document.cookie = name + '=' + escape(value) + '; path=/; expires=' + todayDate.toGMTString() + ';';
+  }
+</script>

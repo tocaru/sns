@@ -1,0 +1,178 @@
+main img {
+  width: 100%;
+}
+
+main h2,
+h3 {
+  text-align: center;
+}
+
+figcaption h4 {
+  margin: 2em 0;
+  font-size: 2.4em;
+}
+
+.nav-menu:after {
+  height: 215px;
+}
+
+/*app_marketing*/
+
+.app_main{
+  background-color: #f8f8f8;
+  margin-top: 8em;
+  padding: 8em 0;
+}
+
+.app_marketing .pay {
+  color: #dc4b5c;
+}
+
+/*uac*/
+
+.uac_ad{
+  position: relative;
+}
+
+.uac_main {
+  padding: 8em 0 10px ;
+}
+
+.uac_slide,
+.da_slide {
+  margin: 8em auto;
+  width: 80%;
+}
+
+.uac_slide_next,
+.uac_slide_prev {
+  top: 38%;
+}
+
+.uac_slide_next{
+  right: 20%;
+}
+
+.uac_slide_prev{
+  left: 20%;
+}
+
+.uac_case{
+  background-color: #EDFBFF;
+  padding: 8em 0;
+}
+
+
+/*apple_ad*/
+
+.apple_intro {
+  padding: 8em 0;
+}
+
+.as_case{
+  padding: 8em 0;
+  background-color: #f8f8f8;
+}
+
+/*sponser_ad*/
+
+.sponser_ad > h3 {
+  margin-top: 8em;
+}
+
+.sns_case{
+  margin-top: 8em;
+  padding: 8em 0;
+  background-color: #EDFBFF;
+}
+
+/*display_ad*/
+
+.da_slide_wrap{
+  position: relative;
+}
+
+.da_intro {
+  padding-bottom: 8em;
+}
+
+.da_slide_wrap{
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.da_slide_next,
+.da_slide_prev {
+  top: 50%;
+}
+
+.da_slide_prev{
+  left: 20%;
+}
+
+.da_slide_next{
+  right: 20%;
+}
+
+/*amends_ad*/
+
+
+.amends_ad figcaption {
+  text-align: center;
+}
+
+
+.reward_detail{
+  padding: 8em 0;
+  margin: 8em 0;
+  background-color: #EDFBFF;
+}
+
+.reward_detail ul {
+  justify-content: space-between;
+}
+
+.reward_detail ul li {
+  width: 23em;
+  padding: 1.5em;
+  text-align: center;
+
+}
+
+.reward_detail ul h4 {
+  padding: 15px;
+  font-size: 1.8em;
+  border-radius: 1em;
+}
+
+.reward_detail ul li:nth-child(1) h4,
+.reward_detail ul li:nth-child(3) h4 {
+  background-color: #dff7ff;  
+  border: 1px solid #000;
+}
+
+.reward_detail ul li:nth-child(even) h4 {
+  background-color: #9ee6ff;
+  border: 1px solid #000;
+}
+
+.reward_detail ul p {
+  padding-top: 2em;
+  font-size: 1.6em;
+}
+
+.reward_explain {
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+.reward_explain p:nth-of-type(2) {
+  margin: 2em 0;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+.cpi_case{
+  padding: 8em 0;
+  background-color: #f8f8f8;
+}

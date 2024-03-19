@@ -1,0 +1,287 @@
+.nav-menu:after {
+  height: 130px;
+}
+
+.company_story {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 20em 0;
+  background-color: #edfbff;
+}
+
+.company_story::before{
+  content: "";
+  display: block;
+  position: absolute;
+  right: 4em;
+  top: 45em;
+  width: 50em;
+  height: 30em;
+  background: url(../../images/main_after.png) no-repeat center;
+  background-size: 50%;
+}
+
+.company_story::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 30%;
+  right: 15%;
+  width: 60em;
+  height: 40em;
+  background: url(../../images/bg_company_story.png) no-repeat 0 0;
+  background-position: 80% 90%;
+}
+
+.company_story h3 {
+  padding-bottom: 1em;
+  color: #00a6dc;
+  font-size: 3.6em;
+}
+
+.company_story .explain {
+  width: 42em;
+  line-height: 2em;
+  font-size: 1.6em;
+}
+
+.company_story .explain.mo {
+  display: none;
+}
+
+/*company history*/
+
+.blue{
+  color: #00a6dc;
+}
+
+.his_title{
+  color: #424242;
+  margin-bottom: 2em;
+  font-size: 4.8em;
+}
+
+.history {
+  background: url(../../images/bg_history.png) no-repeat 0 100%;
+  background-size: contain;
+  background-position: bottom;
+}
+
+/*-------------  sub1-1 -------------*/
+
+.History .sub_wrap {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding: 160px 0 0px;
+  box-sizing: border-box;
+}
+
+.sub_wrap {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding: 160px 0 100px;
+  box-sizing: border-box;
+}
+
+
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* the timeline's center vertical line */
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  bottom: 20px;
+  left: 50%;
+  height: 1270px;
+  width: 1px;
+  background-color: #ccc;
+}
+
+.timeline li {
+  position: relative;
+  width: 50%;
+  min-height: 100px;
+  margin-bottom: 20px;
+  padding: 0;
+  text-align: right;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+/* the rounded mark on each timeline item */
+.timeline li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  right: -4px;
+  background: #00a1ff;
+  border-radius: 50%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.timeline li::after {
+  border: 1px solid #8dd2fa;
+  content: "";
+  width: 40px;
+  height: 40px;
+  top: -15px;
+  right: -20px;
+  background: #f7f7f7;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.timeline h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.timeline p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #424242;
+}
+
+.timeline li:nth-child(2n) {
+  align-self: flex-end;
+  text-align: left;
+  transform: translateX(10%);
+}
+
+.timeline li:nth-child(2n):before {
+  left: -59px;
+  transform: translate(-50%, -50%);
+}
+
+.timeline li:nth-child(2n)::after {
+  border: 1px solid #8dd2fa;
+  content: "";
+  width: 40px;
+  height: 40px;
+  top: -19px;
+  right: 639px;
+  background: #f7f7f7;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.time-text {
+  position: relative;
+  margin: -11px 50px;
+}
+
+.time-text2 {
+  position: relative;
+  margin: -16px;
+}
+
+/*-----------// Company History---------------*/
+
+
+/* organization */
+
+
+.organization .title {
+  padding-top: 80px;
+  width: 30em;
+}
+
+.organization p {
+  width: 120em;
+  padding: 10em auto;
+}
+
+.organization .pc img{
+  margin: auto;
+  width: 100%;
+  padding-bottom: 10em;
+}
+
+/*process*/
+
+.information {
+  height: 1400px;
+  background: url(../../images/bg_process.png) no-repeat 0 0;
+  color: #fff;
+}
+
+.information .title {
+  width: 30em;
+  padding: 100px 0 0 400px;
+
+}
+
+.information ul {
+  margin: auto;
+  padding: 8em 0;
+  grid-template-areas: "a b c" "d e f" "g h i";
+  gap: 3em;
+}
+
+.information ul li:first-child {
+  grid-area: a;
+}
+.information ul li:nth-child(2) {
+  grid-area: b;
+}
+.information ul li:nth-child(3) {
+  grid-area: c;
+}
+.information ul li:nth-child(4) {
+  grid-area: d;
+}
+.information ul li:nth-child(5) {
+  grid-area: e;
+}
+.information ul li:nth-child(6) {
+  grid-area: f;
+}
+.information ul li:nth-child(7) {
+  grid-area: g;
+}
+
+
+.information ul li img {
+  width: 30em;
+}
+
+.process{
+  position: absolute;
+  visibility: hidden;
+}
+
+
+/*goals*/
+
+.goals .goals_title{
+  margin: 150px;
+  text-align: center;
+}
+
+.goals .goals_title .title{
+  font-size: 3.6em;
+}
+
+.goals .goals_title .explain{
+  font-size: 1.8em;
+  line-height: 2em;
+}

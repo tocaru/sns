@@ -1,0 +1,300 @@
+@media screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .pc {
+    display: none;
+  }
+  .mo {
+    display: block;
+  }
+
+  .specialization .pc {
+    display: none;
+  }
+  .specialization .mo {
+    display: block;
+  }
+
+  /*main*/
+  .inner {
+    width: 40em;
+  }
+
+  main .sub_title {
+    padding-top: 1.4em;
+    font-size: 1.4em;
+    color: #00a6dc;
+    font-weight: bold;
+  }
+  main .title {
+    padding: 1em 0;
+    font-size: 2.8em;
+  }
+  main .explain {
+    padding-right:60px;
+    line-height: 1.6em;
+    font-size: 1.1em;
+  }
+
+  /*main visual*/
+  .main_visual {
+    background: none;
+  }
+
+  .main_visual:after {
+    display: none;
+  }
+
+  .main_visual img {
+    display: none;
+  }
+
+  .main_visual video {
+    display: none;
+  }
+
+  .video_container {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .main_visual .mo_video {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  /*mainvisual content*/
+  .mv_content {
+    width: 300px;
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    word-break: break-all;
+  }
+  .mv_content .mo {
+    color: #000;
+    font-size: 1.8em;
+  }
+
+  .mv_content .mo strong {
+    font-size: 24px;
+  }
+
+  .mv_content .mo span {
+    color: #155bac;
+    font-weight: bold;
+  }
+
+  /*portfolio*/
+  .portfolio{
+    height: 70vh;
+    padding: 5em 2em;
+    margin-bottom: 5em;
+    background: url(../images/m_portfolio.png) no-repeat 20% bottom;
+    background-size: 80%;
+  }
+
+
+  /*slide*/
+  .pc {
+    display: none;
+  }
+
+  .mo {
+    display: block;
+  }
+
+  /*button*/
+  .portfolio .plus {
+    top: 23%;
+    right: 20%;
+    z-index: 9;
+    font-size: 1.2em;
+  }
+
+  /*specialization*/
+
+  .specialization .inner{
+    padding: 5em 0;
+  }
+
+  .specialization .wrap {
+    width: 100vw;
+    height: 80vh;
+    background: url(../images/m_bg_specialization.png) no-repeat 100% 100%;
+    background-size: 120%;
+  }
+  .specialization .inner .sub_title,
+  .specialization .inner .title{
+    padding: 10px 50px 0;
+    color: #fff;
+  }
+
+  .specialization .inner .explain{
+    padding: 10px 90px 10px 50px;
+  }
+
+  .specialization .mo {
+    padding-top: 2em;
+  }
+
+  .specialization .wrap .mo li {
+    width: 250px;
+    margin: 20px 15%;
+    padding: 12px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .specialization .wrap .mo li:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 1em;
+    transition: all 0.5s;
+  }
+
+  /*solution*/
+
+  .solution .inner{
+    padding-top: 2em;
+  }
+
+  .solution .wrap {
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .solution .inner .sub_title,
+  .solution .inner .title,
+  .solution .inner .explain {
+    padding: 10px 50px 0;
+    color: #fff;
+  }
+
+  .solution ul {
+    width: 300px;
+    margin: 0 10%;
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f";
+    justify-content: center;
+    gap: 2em;
+    padding: 5% 0;
+  }
+
+  .solution ul li {
+    width: 12em;
+    height: 12em;
+  }
+
+  .solution ul li img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*free*/
+  .free .wrap img {
+    margin-top: 0;
+  }
+
+  .free form {
+    width: 400px;
+    margin: 0;
+  }
+
+  .free form ul li {
+    width: 350px;
+    padding: 1em;
+  }
+
+  .free form ul li label {
+    width: 150px;
+    line-height: 3em;
+    font-size: 12px;
+  }
+
+  .free form ul li input,
+  select {
+    font-size: 1.2em;
+  }
+
+  .free form ul li input[type="radio"] {
+    width: 1.2em;
+  }
+
+  /*답변 요청*/
+  .free form ul li.answer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .free form ul li.answer .request {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .free form ul li select {
+    margin-left: -70px;
+  }
+
+  /*상담 후 무료 진단서 받기*/
+  .submit_free {
+    width: 20em;
+    padding: 1.2em 0;
+    margin: 1em 10%;
+    background: #00a6dc;
+    font-size: 1.4em;
+  }
+
+  /*sample_image*/
+  .free .sample img {
+    display: none;
+  }
+
+  /*location*/
+  .location {
+    margin: 2em 0 0 0;
+    padding: 40px 30px 80px;
+    height: 85em;
+    word-break: break-all;
+  }
+
+  .location .inner {
+    display: block;
+  }
+
+  .location ul li h3 {
+    font-size: 1.4em;
+    padding: 1em 0;
+  }
+
+  .location ul li p {
+    font-size: 1.2em;
+  }
+
+  .location .map {
+    width: 40em;
+    height: 300px;
+    margin-top: 10%;
+  }
+
+  .root_daum_roughmap_landing{
+    margin: 0 -20px 0 -10px !important; 
+  }
+
+}

@@ -1,0 +1,607 @@
+@media screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .title_all {
+  padding: 10em 0 5em;
+  text-align: center;
+  background: url(../../images/bg_title.png) no-repeat 50% 55%;
+  background-size: 320px;
+}
+
+  /*main*/
+  .inner {
+    width: 30em;
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  main .sub_title {
+    padding-top: 1.4em;
+    font-size: 1.4em;
+    color: #00a6dc;
+    font-weight: bold;
+  }
+  main .title {
+    padding: 1em 0;
+    font-size: 2em;
+  }
+  main .explain {
+    line-height: 1.6em;
+    font-size: 1.1em;
+  }
+
+  figcaption h4{
+    margin: 2em 0;
+    font-size: 1.4em;
+  }
+
+  #search figure figcaption {
+    font-size: 1.6em;
+    margin-bottom: 2em;
+  }
+
+  #search figure p {
+    font-size: 1.4em;
+  }
+
+  #search figure img {
+    max-width: 400px;
+  }
+
+  /*search_naver*/
+
+  .search_naver figure {
+    margin-bottom: 8em;
+  }
+
+  .search_naver figure img {
+    width: 100%;
+  }
+
+  .search_ad{
+    padding: 5em 0 3em 0;
+  }
+
+  .search_ad .sn_slide_prev {
+    left: 15px;
+  }
+  .search_ad .sn_slide_next {
+    right: 15px;
+  }
+
+  /*slide*/
+
+  .swiper{
+    width: 250px;
+  }
+
+
+  /*search_shopping*/
+
+  .search_shopping .ss_ad {
+  position: relative;
+  margin-top: 5em;
+  padding: 5em 0 3em;  
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+  .ss_ad ul {
+    margin: 5em 0;
+    flex-wrap: wrap;
+  }
+
+  .ss_ad .mo li {
+    width: 320px;
+  }
+
+  .ss_ad .mo li img {
+    width: 100%;
+  }
+
+  
+.cs_ad{  
+  padding: 5em 0 0 0;
+}
+
+.sco_main,
+.br_main {
+  margin-bottom: 5em;
+}
+
+  .search_brand {
+    position: relative;
+  }
+
+  .search_brand ul li h4 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .br_slide .swiper-slide {
+    height: 200px;
+  }
+
+  .br_slide_next,
+  .br_slide_prev {
+    top: 70%;
+  }
+
+  .br_slide_prev {
+    left: 1.5em;
+  }
+  .br_slide_next {
+    right: 1.5em;
+  }
+
+
+  .br_contents{
+    padding: 5em 0 3em ;
+  }
+
+  /*노출방식*/
+
+  .search_brand ul.flex {
+    flex-wrap: wrap;
+  }
+
+  .search_brand ul li ul.flex img {
+    width: 100%;
+    padding-top: 3em;
+  }
+
+  .cc_main {
+    padding-bottom: 2em;
+  }
+
+  .cc_ad{
+    padding-top: 3em;
+  }
+
+  /*클릭초이스 상품광고*/
+
+  .search_click p {
+    width: 100%;
+  }
+
+  /*banner*/
+
+  .banner .title::after {
+    display: none;
+  }
+
+  .title_all {
+    background-size: 50%;
+  }
+
+  .banner .title {
+    padding: 2em 0 1em;
+  }
+
+  .title_all .explain {
+    font-size: 1em;
+  }
+
+  /*naver_da*/
+
+  .nd_content{
+    flex-wrap: wrap;
+    padding: 5em 0 0 0;
+    gap: 20px;
+  }
+  
+  .np_slide_next, .np_slide_prev{
+  display: none;  
+}
+
+  .naver_da .inner {  
+    margin-bottom: 5em;
+  }
+
+  .np_main img{
+    padding: 0 ;
+  }
+
+
+  /*kakao_moment*/
+
+
+
+  .km_ex ul{
+    display: block;
+  }
+
+  .km_content img{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .km_slide {
+    margin: 5em 0;
+    width: 100%;
+    left: 0;
+  }
+
+  .km_slide img {
+    width: 100%;
+  }
+
+  .km_slide_next,
+  .km_slide_prev {
+    display: none;
+  }
+
+  .kakao_mo .km_ex{
+    padding: 5em 0 1em;
+    background-color: #f8f8f8;
+  }
+
+  /*google*/
+  .search_google {
+    margin-bottom: 10em;
+  }
+
+  /*network display banner*/
+
+  .network .title_all{
+    padding: 1em 0;
+  }
+
+  .network .flex {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .network .flex li {
+    width: 15em;
+  }
+
+  .network .targeting {
+    padding-bottom: 12em;
+  }
+
+  .network .targeting p img {
+    width: 100%;
+  }
+
+  .network_con{
+    display: block;
+  }
+
+  .network_con li{
+    width: 25em;
+    margin: 2em auto;
+  }
+
+  /*sns*/
+
+  .sns_main figure h4 {
+    font-size: 1.6em;
+  }
+
+  .pc {
+    display: none;
+  }
+  .mo {
+    display: block;
+  }
+
+  .fb_marketing > ul > li {
+    padding: 3em 0;
+  }
+
+
+  
+
+  /*sponser*/
+
+  .fb_marketing ul li.sponser {
+    padding: 10em 0;
+}
+
+  .sponser ul li img {
+    width: 80%;
+  }
+
+  .sponser ul li figure {
+    text-align: center;
+    height: inherit;
+  }
+
+  .sponser ul li figure img {
+    float: none;
+  }
+
+  .sponser ul li figure h4 {
+    text-align: center;
+    font-size: 1.6em;
+  }
+
+  .sponser ul li figure figcaption {
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .sponser ul li figure figcaption:first-of-type ul li {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .sponser ul li figure figcaption:nth-of-type(2) ul li {
+    padding: 1em;
+    margin: auto;
+  }
+
+  /*pixel data*/
+
+  .px_slide {
+    width: 300px;
+    margin: 0;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+  }
+
+  .pixel_data .px_slide_next,
+  .pixel_data .px_slide_prev {
+    display: none;
+  }
+
+/*promotion*/
+.promotion .explain h4 {
+  padding-top: 2em;
+  font-size: 1.4em;
+}
+
+.promotion .explain h4::after {
+  display: none;}
+
+
+  /*process*/
+
+  .process ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .process ul li {
+    margin: 1em;
+    padding: 1em;
+    width: 12em;
+    height: 18em;
+    text-align: center;
+  }
+
+  .process ul li h4 {
+    padding: 0;
+    font-size: 3em;
+  }
+
+  /*mcn*/
+  .viral_intro_main figcaption h4,
+  .viral_intro_main figcaption p {
+    width: 100%;
+  }
+  .viral_intro_main figcaption h4 {
+    font-size: 1.8em;
+  }
+  .viral_intro_main figcaption p {
+    font-size: 1.2em;
+  }
+
+  .viral_introduce {
+    margin-top: 5em;
+    padding: 5em 0 20em;
+    background-color: #f8f8f8;
+  }
+
+  .viral_introduce ul li{
+    position: relative;
+    text-align: left;
+  }
+
+.viral_introduce ul li:first-child img{
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 250px;
+}
+
+.viral_introduce ul li:nth-child(2){
+  margin: 20em 0 0 0;
+  text-align: left;
+}
+
+.viral_introduce ul li:nth-child(2) p{
+  width: 100%;
+  margin: 0;
+}
+
+.viral_introduce ul li:nth-child(2) img{
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  width: 250px;
+}
+
+.viral_introduce .explain {
+  width: 100%;
+}
+
+  /*blog*/
+
+.posting{
+  padding: 5em 0;
+}
+
+  .posting figure {
+    display: block;
+  }
+  .posting figure img {
+    width: 100%;
+  }
+  .posting figure figcaption {
+    margin-top: 2em;
+    margin-left: 0;
+    font-size: 1em;
+  }
+
+  /*ad_type*/
+
+  .ad_type{
+    padding: 3em 0 5em;
+  }
+
+  .ad_type ul{
+    display: block;
+  }
+
+  /*advatages*/
+
+  .advantages{
+    padding: 5em 0;
+  }
+
+  .ad_process ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ad_process ul li {
+    margin: 1em;
+    padding: 1em;
+    width: 13em;
+    height: 16em;
+    text-align: center;
+  }
+
+  .ad_process ul li h4 {
+    padding: 0;
+    font-size: 3em;
+  }
+
+  .ad_process ul li p {
+    font-size: 1em;
+  }
+
+  .enforcement_case{
+    padding: 5em 0;
+  }
+
+  /*influencer*/
+
+  .influencer{
+    padding: 5em 0;
+    margin-bottom: 0;
+  }
+
+  .influencer ul, .ar_contents ul{
+    display: block;
+  }
+
+  .ar_contents{
+    padding: 5em 0;
+    margin-bottom: 0;
+  }
+
+  .article {
+    text-align: right;
+    background: url(../images/mcn/article_bg.png) no-repeat center top;
+    background-size: 120%;
+  }
+
+
+  .article ul li {
+    width: 25em;
+    margin: auto;
+  }
+
+  .article ul li img{
+    width: 100%;
+  }
+
+  /*라이브커머스*/
+
+  .commerce {
+    padding: 5em 0;
+    background-color: #edfbff;
+}
+
+
+  .live_shopping ul {
+    display: block;
+    margin-bottom: 8em;
+    text-align: center;
+  }
+
+  .live_shopping ul li {
+    margin: auto;
+    width: 250px;
+  }
+
+  .live_shopping ul li h4 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .live_shopping ul li p {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+
+  /*CPI*/
+
+  .uac_slide_next,
+  .uac_slide_prev {
+    top: 50%;
+  }
+
+  .da_slide {
+    display: none;
+  }
+
+  .da_slide_next,
+  .da_slide_prev {
+    display: none;
+  }
+
+  .display_ad .mo li {
+    padding: 5em 0;
+  }
+
+  .amends_ad p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .reward_detail ul {
+    flex-wrap: wrap;
+  }
+
+  .reward_detail ul li {
+    width: 14em;
+  }
+
+  .reward_detail ul h4{
+    font-size: 1.4em;
+  }
+
+  .reward_detail ul p{
+    font-size: 1.2em;
+  }
+
+  .reward_explain p:nth-of-type(2) {
+    font-size: 1.4em;
+}
+
+  .amends_ad {
+    margin-bottom: 15em;
+  }
+}

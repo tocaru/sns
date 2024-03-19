@@ -1,0 +1,191 @@
+.flex {
+  justify-content: center;
+}
+
+.nav-menu:after {
+  height: 124px;
+}
+
+main img {
+  padding: 5em 0 3em;
+  width: 100%;
+}
+
+.mo {
+  display: none;
+}
+
+/*sns_main*/
+
+.sns_main img {
+  width: 100%;
+}
+.sns_main figure h4 {
+  padding: 1.2em 0;
+  font-size: 2em;
+}
+.sns_main figure p {
+  padding-bottom: 1.2em;
+  font-size: 1.6em;
+}
+
+.fb_marketing .pc {
+  float: right;
+}
+
+.fb_marketing > ul > li {
+  padding: 10em 0;
+  text-align: center;
+}
+
+.fb_marketing .advantage {
+  background-color: #f8f8f8;
+}
+
+/*reason*/
+.reason {
+}
+
+.reason figcaption {
+  font-size: 2.4em;
+  font-weight: bold;
+}
+
+/*promotion*/
+.promotion {
+  background-color: #edfbff;
+}
+
+.promotion .explain h4 {
+  position: relative;
+  font-size: 2em;
+}
+
+.promotion .explain h4::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 25%;
+  width: 50%;
+  height: 0.5em;
+  background-color: #beeaf9;
+}
+
+/*targeting*/
+.targeting {
+  background-color: #f5f5f5;
+}
+
+/*sponser*/
+.sponser {
+  background-color: #edfbff;
+}
+
+.fb_marketing ul li.sponser {
+  padding: 22em 0;
+}
+
+.sponser ul li img {
+  width: 60%;
+}
+
+.sponser ul li figure {
+  height: 50em;
+}
+
+.sponser ul li figure img {
+  float: left;
+}
+
+.sponser ul li figure h4 {
+  padding-bottom: 0.5em;
+  font-size: 2.4em;
+}
+
+.sponser ul li figure figcaption {
+  padding: 5% 0 0 0;
+  text-align: left;
+  font-size: 1.4em;
+}
+
+.sponser ul li figure figcaption:first-of-type ul li {
+  padding: 1em 0;
+  list-style-type: disc;
+}
+
+.sponser ul li figure figcaption:nth-of-type(2) ul li {
+  padding: 1em 0.8em;
+  margin-left: 1em;
+  background-color: #beeaf9;
+  border-radius: 1em;
+}
+
+/*ad_type*/
+.ad_type ul li img {
+  width: 100%;
+}
+
+/*pixel data*/
+
+.pixel_data {
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.pixel_data .px_slide_next,
+.pixel_data .px_slide_prev {
+  top: 60%;
+}
+
+.pixel_data .px_slide_prev{
+  left: 15%;
+}
+
+.pixel_data .px_slide_next{
+  right: 15%;
+}
+
+/*process*/
+.process {
+  background-color: #edfbff;
+}
+
+.process ul li {
+  margin: 1em;
+  padding: 1.5em 1.5em;
+  width: 18em;
+  height: 18em;
+  background-color: rgba(161, 161, 161, 0.3);
+  border-radius: 20px;
+  text-align: left;
+}
+
+.process ul li h4 {
+  padding-bottom: 10px;
+  font-size: 4em;
+  color: #00a6dc;
+}
+
+.process ul li h5 {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 10px;
+  font-size: 1.6em;
+}
+
+.process ul li p {
+  font-size: 1.2em;
+}
+
+/*yt_marketing*/
+.yt_marketing {
+  text-align: center;
+}
+
+/*dg_marketing*/
+.dg_marketing {
+  margin-bottom: 10em;
+  text-align: center;
+}

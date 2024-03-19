@@ -1,0 +1,134 @@
+@media screen and (max-width: 500px) {
+
+  body{overflow-x: hidden;}
+
+  /*main*/
+  main .sub_title {
+    padding-top: 1.4em;
+    font-size: 1.4em;
+    color: #00a6dc;
+    font-weight: bold;
+  }
+  main .title {
+    padding: 1em 0;
+    font-size: 2.8em;
+  }
+  main .explain {
+    line-height: 1.6em;
+    font-size: 1.1em;
+  }
+
+/*main*/
+/*company_story*/
+.company_story{
+  height: 55em;
+  padding: 0 3em;
+  background: url(../../images/bg_company_story.png) no-repeat center 90%;
+  background-size: 80%;
+}
+
+.company_story h3 {
+  padding-bottom: 1em;
+  color: #00a6dc;
+  font-size: 2.4em;
+}
+
+.company_story::before,.company_story::after {
+  display: none;
+}
+
+.company_story .explain.mo{
+  width: 32em;
+  display: block;
+  word-break: break-all;
+  font-size: 1em;
+}
+
+.company_story .explain.pc{
+  display: none;
+}
+
+/*history*/
+
+.history .mo{
+  padding-top: 80px;
+}
+
+.history .mo img{
+  width: 100%;
+}
+
+
+
+/*process*/
+
+.information {
+  height: 82em;
+  padding-bottom: 950px;
+  background: url(../../images/m_bg_process.png) no-repeat 0 0;
+  background-size: 100vh;
+  color: #fff;
+}
+
+.information .title {
+  padding: 5% 10%;
+  width: 300px;
+}
+
+.information ul {
+  padding: 1em;
+  grid-template-areas: "a b" "c d" "e f" "g h";
+  justify-content: center;
+  gap: 1em;
+}
+
+.information ul li:first-child {
+  grid-area: a;
+}
+.information ul li:nth-child(2) {
+  grid-area: b;
+}
+.information ul li:nth-child(3) {
+  grid-area: c;
+}
+.information ul li:nth-child(4) {
+  grid-area: d;
+}
+.information ul li:nth-child(5) {
+  grid-area: e;
+}
+.information ul li:nth-child(6) {
+  grid-area: f;
+}
+.information ul li:nth-child(7) {
+  grid-area: g;
+}
+
+.information ul li{
+  width: 15em;
+}
+
+.information ul li img {
+  width: 100%;
+}
+
+
+/*goals*/
+
+.goals .goals_title{
+  margin: 50px 30px 100px;
+  text-align: center;
+}
+
+.goals .goals_title .title{
+  font-size: 2.4em;
+}
+
+.goals .goals_title .explain{
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+
+}
+

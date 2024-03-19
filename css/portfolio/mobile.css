@@ -1,0 +1,104 @@
+@media screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /*팝업창*/
+  .popup textarea {
+    width: 320px;
+  }
+
+  main .sub_title {
+    padding-top: 1.4em;
+    font-size: 1.4em;
+    color: #00a6dc;
+    font-weight: bold;
+  }
+  main .title {
+    padding: 1em 0;
+    font-size: 2.8em;
+  }
+  main .explain {
+    line-height: 1.6em;
+    font-size: 1.1em;
+  }
+
+  .title_all {
+    padding: 80px 0 0;
+    background: url(../../images/main_after.png) no-repeat 80% 200%;
+    background-size: 50%;
+  }
+
+  .brnad_L {
+    display: none;
+  }
+
+  .Portfolio .brand_P {
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3em 5%;
+  }
+
+  .Portfolio .pro {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Portfolio .brand_P .content_box {
+    width: 40%;
+  }
+
+  .Portfolio .brand_P .content_box img {
+    width: 7em;
+    height: 2em;
+  }
+
+  /*production*/
+
+  /*hompage*/
+
+  .box {
+    max-width: 13em;
+  }
+
+  .tab-content {
+    width: 100%;
+    display: none;
+    background-color: #f7f7f7;
+    padding: 12px;
+    padding-bottom: 120px;
+  }
+
+  .tab-content.current {
+    flex-wrap: wrap;
+    display: inherit;
+  }
+
+  .display_list li {
+    width: 13em;
+  }
+
+  /*팝업창*/
+
+  /*display_popup*/
+#open_view{
+  width: 90%;
+}
+
+#open_view_wrap span{
+  left: 80%;
+}
+
+#img_wrap{
+  width: 300px;
+}
+#popup_image {
+  width: 100%;
+}
+#popup_title {
+  font-size: 2em;
+}
+
+}

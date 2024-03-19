@@ -1,0 +1,371 @@
+main img{width: 100%;}
+
+.title {
+  width: 1400px;
+  padding: 80px 0;
+}
+
+.content_title {
+  font-size: 3.6em;
+}
+
+.title_h4{
+  padding: 15px 0 12px;
+  font-size: 2em;
+  color: #00a6dc;
+}
+
+.nav-menu:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 5px;
+  height: 260px;
+  top: 28px;
+  width: 1px;
+  background: #bdbdbd;
+  transform: translateX(-1px);
+}
+
+/*moblie_optimization*/
+
+.moblie_optimization ul {
+  margin-left: 50px;
+}
+
+.moblie_optimization ul li {
+  width: 90em;
+}
+
+.moblie_optimization ul li img {
+  width: 100%;
+}
+
+/*web_log*/
+
+.procedure {
+  width: 90em;
+  margin: auto;
+}
+
+.procedure img {
+  width: 100%;
+  text-align: center;
+}
+
+.log_content {
+  padding: 1em 0;
+  font-size: 1.8em;
+}
+
+/*log_4a*/
+
+.log_4a {
+  margin: 80px 0;
+  padding: 80px 0;
+  background-color: #EDFBFF;
+}
+
+.log_4a ul {
+  grid-template-areas: "a b c d";
+  padding: 5em 0;
+  gap: 3em;
+}
+
+.log_4a ul li:first-child {
+  grid-area: a;
+}
+.log_4a ul li:nth-child(2) {
+  grid-area: b;
+}
+.log_4a ul li:nth-child(3) {
+  grid-area: c;
+}
+.log_4a ul li:nth-child(4) {
+  grid-area: d;
+}
+
+.log_4a ul li img {
+  width: 25em;
+}
+
+/*hitmap*/
+
+.hitmap {
+  background: url(../../images/web_log_hitmap.png) no-repeat 70% 0;
+  background-size: 20%;
+}
+
+.hitmap .log_content {
+  width: 36em;
+}
+
+
+
+.hitmap ul li .log_content {
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.hitmap ul .visualization .grid {
+  grid-template-areas: "a b" "c d";
+}
+
+.hitmap ul .visualization .grid li:first-child {
+  grid-area: a;
+}
+.hitmap ul .visualization .grid li:nth-child(2) {
+  grid-area: b;
+}
+.hitmap ul .visualization .grid li:nth-child(3) {
+  grid-area: c;
+}
+
+.hitmap ul li.visitant,
+.hitmap ul li.funnel {
+  display: inline-block;
+  margin: 0 4em 8em;
+  width: 50em;
+  height: 100%;
+}
+
+.hitmap ul li.visitant{
+  margin: 0 0 8em;
+}
+
+.hitmap ul li.visitant {
+  vertical-align: top;
+}
+
+.hitmap ul .visitant ul li,
+.hitmap ul .funnel ul li {
+  font-size: 1.8em;
+}
+
+.hitmap ul .visitant ul li h5,
+.hitmap ul .funnel ul li h5 {
+  margin-bottom: 1em;
+  font-size: 18px;
+}
+
+.hitmap ul .visitant ul li p,
+.hitmap ul .funnel ul li p {
+  margin-bottom: 2em;
+  font-size: 16px;
+}
+
+.hitmap ul li:nth-child(2) ul li {
+  font-size: 1.6em;
+}
+
+/*fraudulent_click*/
+
+.fraudulent_click{
+  padding: 8em 0;
+  background-color: #f8f8f8;
+}
+
+
+.fraudulent_click::after{
+  background: url(../../images/bg_fraudulent_click.png) no-repeat 75% 7%;
+  background-size: 20%;
+}
+
+.fraudulent_click .log_content {
+  width: 36em;
+}
+
+.fraudulent_click ul {
+  margin: auto;
+  padding: 5em 0;
+}
+
+.fraudulent_click ul li img {
+  width: 100em;
+  margin: auto;
+}
+
+.fraudulent_click ul li:last-child img {
+  width: 25em;
+  margin: auto;
+}
+
+
+.fraudulent_click ul li figcaption strong {
+  text-align: left;
+  display: block;
+  margin: 1em 0;
+}
+
+.fraudulent_click ul li:first-child {
+  grid-area: a;
+}
+.fraudulent_click ul li:nth-child(2) {
+  grid-area: b;
+}
+.fraudulent_click ul li:nth-child(3) {
+  grid-area: c;
+}
+.fraudulent_click ul li:nth-child(4) {
+  grid-area: d;
+}
+
+
+/*report*/
+.report{
+  margin-top: 8em;
+}
+
+.report .inner>p img{
+  width: 70em;
+  margin: 3% 15% 0;
+}
+
+.report_ul{
+  margin-top: 5em;
+  display: grid;
+  grid-template-areas: "a b" "c d";
+  background: url(../../images/web_log_report.png) no-repeat 100% 15%;
+}
+
+.report_ul li{
+  width: 30em;
+}
+
+.report ul li ul li, .report ul li p{font-size: 1.6em;}
+
+.report ul{
+  grid-template-areas: "a b" "c d" "e f" "g h" "i j";
+  justify-content: start;
+  gap: 2em;
+  margin: 3em 0;
+}
+
+.report ul li ul li:first-child{grid-area: a;}
+.report ul li ul li:nth-child(2){grid-area: b;}
+.report ul li ul li:nth-child(3){grid-area: c;}
+.report ul li ul li:nth-child(4){grid-area: d;}
+.report ul li ul li:nth-child(5){grid-area: e;}
+.report ul li ul li:nth-child(6){grid-area: f;}
+.report ul li ul li:nth-child(7){grid-area: g;}
+.report ul li ul li:nth-child(8){grid-area: h;}
+.report ul li ul li:nth-child(9){grid-area: i;}
+
+
+.report ul li ul li span, .report ul li p span{
+  text-decoration: underline;
+}
+
+.report .title_h4{
+  padding: 15px 0 12px;
+  font-size: 2em;
+  color: #00a6dc;
+}
+
+
+/*automatic*/
+
+.sl_title{
+  margin: auto;
+  padding: 50px 0;
+  font-size: 24px;
+}
+
+.automatic .automatic_content{
+  display: inline-block;
+  padding: 0 50px 30px;
+  font-size: 18px;
+}
+
+.automatic li img{
+  width: 90em;
+}
+
+
+/*competitor*/
+
+.competitor p{
+  font-size: 1.8em;
+}
+
+.competitor ul li{
+  padding: 9em 1.5em;
+  display: inline-block;
+}
+
+/*database*/
+
+.database ul li{
+  width: 50em;
+  display: inline-block;
+}
+
+.database ul li img{  
+  padding: 0 2em;
+  width: 50em;
+}
+
+/*schedule*/
+
+.schedule{
+  background: url(../../images/schedule_call.png) no-repeat  70% 35%;
+  background-size: 20%;
+}
+
+.schedule .log_content:first-of-type{
+  width: 36em;
+}
+
+.schedule .grid{
+  grid-template-areas: "a b c";
+  padding: 8em 0;
+}
+
+.schedule .grid li{
+  width: 30em;  
+  margin: auto;
+}
+
+.schedule .grid li img{
+  width: 30em;
+  text-align: center;
+}
+
+.schedule .main_function{
+  margin-bottom: 9em;  
+  background: url(../../images/schecule_content_bg.png) no-repeat 90% 0%;
+  background-size: 32%;
+}
+
+.schedule .main_function ul li{
+  font-size: 1.6em;
+}
+
+/*sms_consulting*/
+
+.sms_consulting .sms_content{
+  display: inline-block;
+  padding: 30px 50px;
+  font-size: 1.8em;
+}
+
+
+.sms_consulting .grid{
+  margin: 0 5em 9em;
+  grid-template-areas: "a b c d";
+  gap: 3em;
+}
+
+.sms_consulting .grid li{
+  width: 25em;
+  text-align: center;
+}
+
+.sms_consulting .grid li:first-child{grid-area: a;}
+.sms_consulting .grid li:nth-child(2){grid-area: b;}
+.sms_consulting .grid li:nth-child(3){grid-area: c;}
+.sms_consulting .grid li:nth-child(4){grid-area: d;}
+
+.sms_consulting .grid li img{
+  width: 25em;
+}

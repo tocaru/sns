@@ -1,0 +1,205 @@
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(calc(-180px * 4));
+  }
+}
+
+.title_all{
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;  background: url(../../images/main_after.png) no-repeat 60% 60%;
+}
+
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
+
+.close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+  font-size: 3.2em;
+}
+
+.popup form{
+  padding: 8em 5em;
+}
+
+.popup input, .popup textarea{display: block;}
+
+.popup .pop_title{
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.popup .pop_title{
+  padding: 1em 0;
+}
+
+.popup #title{
+  margin-bottom: 1em;
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 0.5em;
+}
+
+.popup .photo{
+  position: relative;
+  width: 100%;
+  height: 280px;
+  border: 1px solid #000;
+  font-size: 3em;
+}
+
+.popup .photo span{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.popup #photo{
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translateX(-50%);
+}
+
+.popup textarea{
+  display: block;
+  width: 698px;
+  height: 200px;
+  padding: 1em;
+  resize: none;
+  border: 1px solid #000;
+  font-size: 1.6em;
+  line-height: 20px;
+}
+
+.popup button{
+  position: absolute;
+  right: 6%;
+  bottom: 6%;
+  width: 12em;
+  height: 3em;
+  background-color: #BEEAF9;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.popup button:hover{
+  background-color: #000;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+/*포트폴리오 컨텐트 내용*/
+.Portfolio .pro {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Portfolio .slider {
+  overflow: hidden;
+  position: relative;
+  right: -25%;
+  height: 800px;
+}
+
+.Portfolio .slider::before,
+.Portfolio .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 20px;
+  position: absolute;
+  /*    width: 200px;*/
+  z-index: 2;
+}
+
+
+.Portfolio .slider .slide-track {
+  -webkit-animation: scroll 20s linear infinite;
+  animation: scroll 20s linear infinite;
+  /* width: calc(250px * 14); */
+}
+
+.Portfolio .slider .slide {
+  height: 8em;
+  width: 15em;
+}
+
+.Portfolio .slider .slide img{
+  width: 15em;
+  height: 3em;
+}
+
+
+.Portfolio .brand_P {
+  width: 50%;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3em 0 10em;
+}
+
+.Portfolio .brand_P .content_box {
+  width: 20em;
+  height: 210px;
+  padding: 2rem 2rem 0 2rem;  
+  margin-bottom: 4em;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  text-align: center;
+  border-radius: 30px;
+  display: flex;
+  z-index: 0;
+}
+.Portfolio .brand_P .content_box:hover {
+  box-shadow: 0 0 11px rgb(0 0 0 / 10%);
+}
+
+
+.Portfolio .brand_P .content_box img {
+  display: inline-block;
+  width: 12em;
+  height: 5em;
+}
+.Portfolio .brand_P .content_box h3{
+  font-size: 1.6em;
+  text-transform: uppercase;
+}

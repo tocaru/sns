@@ -1,0 +1,81 @@
+@media screen and (max-width: 500px) {
+
+  body{overflow-x: hidden;}
+
+  main .sub_title {
+    padding-top: 1.4em;
+    font-size: 1.8em;
+    color: #00a6dc;
+    font-weight: bold;
+  }
+  main .title {
+    padding: 1em 0;
+    font-size: 2.8em;
+  }
+
+  #free .title_all{
+    padding: 8em 0 5em;
+  }
+
+  #free .title.mo{
+    font-size: 2.8em;
+  }
+
+#free .explain.mo{
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+
+  /* Free */
+  #free .free_content {
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 11px rgb(0 0 0 / 10%);
+    margin-bottom: 2rem;
+  }
+  #free .free_content figure {
+    width: 200px;
+    height: auto;
+    margin-right: 2rem;
+  }
+  #free .free_content figure img {
+    width: 5em;
+  }
+  #free .free_content .txt h3 {
+    font-size: 1.6em;
+  }
+  #free .free_content .txt p {
+    font-size: 1.2em;
+  }
+  #free .free_content .txt .blue2 {
+    font-weight: bold;
+  }
+  
+/*benefit*/
+
+
+  #benefit .title_all{
+    padding: 0 0 5em 0;
+  }
+
+
+  #benefit .grid{
+    grid-template-areas: "a b" "c d" "e f" "g h";
+    justify-content: center;
+    gap: 1em;
+  }
+
+  #benefit .grid li{
+    width: 15em;
+  }
+
+
+
+
+}

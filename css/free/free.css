@@ -1,0 +1,113 @@
+
+#free .title_all{
+  width: 100%;
+  padding: 15em 0;
+}
+
+#free .title_all .explain, #benefit .title_all .explain{
+  margin: 1.5em 0;
+  line-height: 1.8em;
+  color: #000;
+  font-size: 1.6em;
+  font-weight: normal;
+}
+
+#free .title_all .damage{
+  margin: auto;
+  font-size: 1.8em;
+  text-decoration: underline;
+}
+
+#free strong, #benefit strong{
+  color: #00A6DC ;
+}
+
+
+/* Free */
+#free .sub-txt {
+    margin-bottom: 5rem;
+  }
+  #free .sub-txt a {
+    font-size: 0.8rem;
+    text-decoration: underline;
+  }
+  #free .free_content {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 11px rgb(0 0 0 / 10%);
+    margin-bottom: 2rem;
+  }
+  #free .free_content figure {
+    width: 200px;
+    height: auto;
+    margin-right: 2rem;
+  }
+  #free .free_content figure img {
+    width: inherit;
+  }
+  #free .free_content .txt h3 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  #free .free_content .txt p {
+    font-size: 0.9rem;
+  }
+  #free .free_content .txt .blue2 {
+    font-weight: bold;
+  }
+  
+
+  /* Free */
+/* Benefit */
+#benefit {
+    padding: 0 0 5rem 0;
+  }
+
+  #benefit .grid{
+    grid-template-areas: "a b c d" "e f g h";
+  }
+
+  #benefit .grid:first-child{grid-area: a;}
+  #benefit .grid:nth-child(2){grid-area: b;}
+  #benefit .grid:nth-child(3){grid-area: c;}
+  #benefit .grid:nth-child(4){grid-area: d;}
+  #benefit .grid:nth-child(5){grid-area: e;}
+  #benefit .grid:nth-child(6){grid-area: f;}
+  #benefit .grid:nth-child(7){grid-area: g;}
+  #benefit .grid:nth-child(8){grid-area: h;}
+  
+
+
+  #benefit .sub-txt {
+    margin-bottom: 5rem;
+  }
+  #benefit .benefit_content {
+    width: 90%;
+    height: auto;
+    padding: 3em;
+    background-color: #fff;
+    box-shadow: 0 0 11px rgb(0 0 0 / 10%);
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  #benefit .benefit_content figure {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2rem;
+  }
+  #benefit .benefit_content img {
+    width: 100%;
+  }
